@@ -7,20 +7,29 @@
 </head>
 <body>
     <header>
-        My CV
+        CV Yuriy Ryndukhov
     </header>
     <nav>
         <ul>
-
+            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="#experience">Work experience</a></li>
+            <li><a href="#skills">About Me and my skills</a></li>
+            <li><a href="#Code">Code example</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Language">Language</a></li>
         </ul>
     </nav>
     <main>
-        <img alt="My photo" src="./Photo.jpg">
         <h1>Yuriy Ryndukhov</h1>
+        <img src="./Photo.jpg" alt="My photo">
+        <p><a name="Contacts"></a></p>
         <h2>Contacts:</h2>
-        <p>Location: Minsk, Belarus</p>
-        <p>GitHub: <a href="https://github.com/Yu-Ra3">Yu-Ra3</a></p>
-        <p>Email: yuriy_r@tut.by</p>
+        <ul>
+            <li>Location: Minsk, Belarus</li>
+            <li>GitHub: <a href="https://github.com/Yu-Ra3">Yu-Ra3</a></li>
+            <li>Email: yuriy_r@tut.by</li>
+        </ul>
+        <p><a name="experience"></a></p>
         <h2>Work experience</h2>
         <p>System Administrator,</p>
         <p>from july 2002 to july 2022</p>
@@ -40,7 +49,8 @@
             <li>had set up network;</li>
             <li>had worked with Proxmox, Docker, Nginx, Samba server, Bash.</li>
         </ul>
-        <h2>About Me</h2>
+        <p><a name="skills"></a></p>
+        <h2>About Me and my skills</h2>
         <ul>
             <li>I like to arrive at refined and effective solutions. I’m keen on creative work and solving engineering problems.</li>
             <li>I’ve practiced Python and C/C++.</li>
@@ -51,22 +61,27 @@
             <li>I’m sociable. I’m keen on psychology and I tend to motivate a team in a friendly, supportive way.</li>
             <li>I’m going to continue improving my business analytics skills in future. I strongly believe that self-education never stops.</li>
         </ul>
+        <p><a name="Code"></a></p>
         <h2>Code example:</h2>
-        <p>function solution(str){</p>
-        <p>let arr = str.split("");</p>
-        <p>arr.reverse();</p>
-        <p>return arr.join("");</p>
-        <p>}</p>
+        <div class="code">
+            <p>function solution(str){</p>
+            <p>let arr = str.split("");</p>
+            <p>arr.reverse();</p>
+            <p>return arr.join("");</p>
+            <p>}</p>
+        </div>
+        <p><a name="Education"></a></p>
         <h2>Education:</h2>
         <p>Belarusian State University of Informatics and Radioelectronics</p>
+        <p><a name="Language"></a></p>
         <h2>Language:</h2>
         <p>English level - A2</p>
     </main>
     <footer>
         <p> <a href="https://github.com/Yu-Ra3">Yu-Ra3</a>
         2022 year
-        <img src="https://rs.school/images/rs_school_js.svg" alt="Cours logo">
-        <a href="https://rs.school/js/"></a>rs.school</p>
+        <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Cours logo">
+        <a href="https://rs.school/js/">rs.school</a></p>
     </footer>
 </body>
 </html>
