@@ -6,10 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        CV Yuriy Ryndukhov
+    <header class="header">
+        <div class="container">
+            <div class="centred">CV Yuriy Ryndukhov</div>
+        </div>
     </header>
-    <nav>
+    <nav class="navigat">
         <ul>
             <li><a href="#Contacts">Contacts</a></li>
             <li><a href="#experience">Work experience</a></li>
@@ -19,69 +21,76 @@
             <li><a href="#Language">Language</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>Yuriy Ryndukhov</h1>
-        <img src="./Photo.jpg" alt="My photo">
-        <p><a name="Contacts"></a></p>
-        <h2>Contacts:</h2>
-        <ul>
-            <li>Location: Minsk, Belarus</li>
-            <li>GitHub: <a href="https://github.com/Yu-Ra3">Yu-Ra3</a></li>
-            <li>Email: yuriy_r@tut.by</li>
-        </ul>
-        <p><a name="experience"></a></p>
-        <h2>Work experience</h2>
-        <p>System Administrator,</p>
-        <p>from july 2002 to july 2022</p>
-        <p>Since 2018</p>
-        <p>I worked on inside software development projects.</p>
-        <p>While working:</p>
-        <ul>
-            <li>collected requirements,</li>
-            <li>defined functionality,</li>
-            <li>created documentation such as technical requirements and user manual,</li>
-            <li>participated in software testing and deployment.</li>
-        </ul>
-        <p>Up to 2018</p>
-        <p>I:</p>
-        <ul>
-            <li>had administered OS Windows and Linux;</li>
-            <li>had set up network;</li>
-            <li>had worked with Proxmox, Docker, Nginx, Samba server, Bash.</li>
-        </ul>
-        <p><a name="skills"></a></p>
-        <h2>About Me and my skills</h2>
-        <ul>
-            <li>I like to arrive at refined and effective solutions. I’m keen on creative work and solving engineering problems.</li>
-            <li>I’ve practiced Python and C/C++.</li>
-            <li>I’m an advanced MS Visio user.</li>
-            <li>I’ve experienced prototyping in Figma.</li>
-            <li>I’ve created small websites for my personal needs using HTML5 and CSS3.</li>
-            <li>I pay very close attention to system safety when I develop solutions.</li>
-            <li>I’m sociable. I’m keen on psychology and I tend to motivate a team in a friendly, supportive way.</li>
-            <li>I’m going to continue improving my business analytics skills in future. I strongly believe that self-education never stops.</li>
-        </ul>
-        <p><a name="Code"></a></p>
-        <h2>Code example:</h2>
-        <div class="code">
-            <p>function solution(str){</p>
-            <p>let arr = str.split("");</p>
-            <p>arr.reverse();</p>
-            <p>return arr.join("");</p>
-            <p>}</p>
+    <main class="main">
+        <div class="container">
+            <div class="myPhoto">
+                <img src="./Photo.jpg" alt="My photo">
+            </div>
+            <h1>Yuriy Ryndukhov</h1>
+            <p><a name="Contacts"></a></p>
+            <h2>Contacts:</h2>
+            <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>GitHub: <a href="https://github.com/Yu-Ra3">Yu-Ra3</a></li>
+                <li>Email: yuriy_r@tut.by</li>
+            </ul>
+            <p><a name="experience"></a></p>
+            <h2>Work experience</h2>
+            <p>System Administrator,</p>
+            <p>from july 2002 to july 2022</p>
+            <p>Since 2018</p>
+            <p>I worked on inside software development projects.</p>
+            <p>While working:</p>
+            <ul>
+                <li>collected requirements,</li>
+                <li>defined functionality,</li>
+                <li>created documentation such as technical requirements and user manual,</li>
+                <li>participated in software testing and deployment.</li>
+            </ul>
+            <p>Up to 2018 I:</p>
+            <ul>
+                <li>had administered OS Windows and Linux;</li>
+                <li>had set up network;</li>
+                <li>had worked with Proxmox, Docker, Nginx, Samba server, Bash.</li>
+            </ul>
+            <p><a name="skills"></a></p>
+            <h2>About Me and my skills</h2>
+            <ul>
+                <li>I like to arrive at refined and effective solutions. I’m keen on creative work and solving engineering problems.</li>
+                <li>I’ve practiced Python and C/C++.</li>
+                <li>I’m an advanced MS Visio user.</li>
+                <li>I’ve experienced prototyping in Figma.</li>
+                <li>I’ve created small websites for my personal needs using HTML5 and CSS3.</li>
+                <li>I pay very close attention to system safety when I develop solutions.</li>
+                <li>I’m sociable. I’m keen on psychology and I tend to motivate a team in a friendly, supportive way.</li>
+                <li>I’m going to continue improving my business analytics skills in future. I strongly believe that self-education never stops.</li>
+            </ul>
+            <p><a name="Code"></a></p>
+            <h2>Code example:</h2>
+            <div class="code">
+                <p class="pad5">function solution(str){</p>
+                <p class="pad25">let arr = str.split("");</p>
+                <p class="pad25">arr.reverse();</p>
+                <p class="pad25">return arr.join("");</p>
+                <p class="pad5">}</p>
+            </div>
+            <p><a name="Education"></a></p>
+            <h2>Education:</h2>
+            <p>Belarusian State University of Informatics and Radioelectronics</p>
+            <p><a name="Language"></a></p>
+            <h2>Language:</h2>
+            <p>English level - A2</p>
         </div>
-        <p><a name="Education"></a></p>
-        <h2>Education:</h2>
-        <p>Belarusian State University of Informatics and Radioelectronics</p>
-        <p><a name="Language"></a></p>
-        <h2>Language:</h2>
-        <p>English level - A2</p>
     </main>
-    <footer>
-        <p> <a href="https://github.com/Yu-Ra3">Yu-Ra3</a>
-        2022 year
-        <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Cours logo">
-        <a href="https://rs.school/js/">rs.school</a></p>
+    <footer class="footer">
+        <div class="container">
+            <div class="centred">
+                <p> <a href="https://github.com/Yu-Ra3">Yu-Ra3</a>
+                2022 year
+                <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="Cours logo">
+                <a href="https://rs.school/js/">rs.school</a></p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
