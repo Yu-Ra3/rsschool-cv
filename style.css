@@ -11,6 +11,22 @@ body {
     font-family: sans-serif;
     font-size: 35px;
 }
+.menu {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.navigat {
+    display: inline;
+}
+.navigat li {
+    display: inline-block;
+    width: 170px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 4px;
+    padding:10px;
+    text-decoration: none;
+    text-align: center;
+}
 .main {
     background-color: darkkhaki;
 }
