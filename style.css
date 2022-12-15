@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.menu {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.navigat {
+    display: inline;
+}
+.navigat li {
+    display: inline-block;
+    width: 170px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 4px;
+    padding:10px;
+    text-decoration: none;
+    text-align: center;
+}
+.main {
+    background-color: darkkhaki;
+}
+.code {
+    border: 1px solid rgb(46, 46, 46);
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(174, 172, 172);
+}
+.pad5 {
+    padding: 2px 5px;
+    margin: 0;
+}
+.pad25 {
+    padding: 2px 25px;
+    margin: 0;
+}
+.myPhoto {
+
+    margin: 20px auto;
+    width: 260px;
+}
+.centred {
+    width: 350px;
+    margin: 0 auto;
+}
+.logo {
+    height: 50px;
+}
