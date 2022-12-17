@@ -8,15 +8,24 @@ body {
     margin: 0 auto;
 }
 .header {
+    margin-top: 50px;
     font-family: sans-serif;
     font-size: 35px;
 }
 .menu {
-    max-width: 1270px;
+    width: 1230px;
     margin: 0 auto;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    left: auto;
+    width: 100%;
+    background-color: rgb(192, 217, 217);
 }
 .navigat {
     display: inline;
+    padding: 0;
 }
 .navigat li {
     display: inline-block;
@@ -29,6 +38,9 @@ body {
 }
 .main {
     background-color: darkkhaki;
+}
+.h {
+    padding-top: 25px;
 }
 .code {
     border: 1px solid rgb(46, 46, 46);
